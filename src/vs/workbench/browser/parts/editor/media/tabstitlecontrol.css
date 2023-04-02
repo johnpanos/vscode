@@ -217,8 +217,8 @@
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active.tab-border-top > .tab-border-top-container {
 	z-index: 6;
-	top: 0;
-	height: 1px;
+	bottom: 0;
+	height: 3px;
 	background-color: var(--tab-border-top-color);
 }
 

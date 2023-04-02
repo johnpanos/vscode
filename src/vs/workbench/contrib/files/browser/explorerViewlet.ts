@@ -271,7 +271,7 @@ const viewContainerRegistry = Registry.as<IViewContainersRegistry>(Extensions.Vi
  */
 export const VIEW_CONTAINER: ViewContainer = viewContainerRegistry.registerViewContainer({
 	id: VIEWLET_ID,
-	title: localize('explore', "Explorer"),
+	title: localize('explore', "Org Browser"),
 	ctorDescriptor: new SyncDescriptor(ExplorerViewPaneContainer),
 	storageId: 'workbench.explorer.views.state',
 	icon: explorerViewIcon,
@@ -280,7 +280,7 @@ export const VIEW_CONTAINER: ViewContainer = viewContainerRegistry.registerViewC
 	order: 0,
 	openCommandActionDescriptor: {
 		id: VIEWLET_ID,
-		title: { value: localize('explore', "Explorer"), original: 'Explorer' },
+		title: { value: localize('explore', "Org Browser"), original: 'Org Browser' },
 		mnemonicTitle: localize({ key: 'miViewExplorer', comment: ['&& denotes a mnemonic'] }, "&&Explorer"),
 		keybindings: { primary: KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.KeyE },
 		order: 0

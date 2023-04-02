@@ -849,7 +849,7 @@ export class DefaultStyleController implements IStyleController {
 		}
 
 		if (styles.listInactiveSelectionBackground) {
-			content.push(`.monaco-list${suffix} .monaco-list-row.selected { background-color:  ${styles.listInactiveSelectionBackground}; }`);
+			content.push(`.monaco-list${suffix} .monaco-list-row.selected { border-right: 3px solid #0176D3; background-color:  ${styles.listInactiveSelectionBackground}; }`);
 			content.push(`.monaco-list${suffix} .monaco-list-row.selected:hover { background-color:  ${styles.listInactiveSelectionBackground}; }`); // overwrite :hover style in this case!
 		}
 

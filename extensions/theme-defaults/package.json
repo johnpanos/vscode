@@ -60,6 +60,12 @@
         "label": "%lightHcColorThemeLabel%",
         "uiTheme": "hc-light",
         "path": "./themes/hc_light.json"
+      },
+      {
+        "id": "Lightning Design System (Experimental)",
+        "label": "%lightningColorThemeLabel%",
+        "uiTheme": "vs",
+        "path": "./themes/slds.json"
       }
     ],
     "iconThemes": [

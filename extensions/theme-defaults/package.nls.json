@@ -8,6 +8,7 @@
 	"darkColorThemeLabel": "Dark (Visual Studio)",
 	"lightColorThemeLabel": "Light (Visual Studio)",
 	"hcColorThemeLabel": "Dark High Contrast",
+	"lightningColorThemeLabel": "Lightning Design System (Experimental)",
 	"lightHcColorThemeLabel": "Light High Contrast",
 	"minimalIconThemeLabel": "Minimal (Visual Studio Code)"
 }
